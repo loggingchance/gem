@@ -106,6 +106,16 @@ body{background:var(--bg-b);font-family:var(--sans);color:var(--text);font-size:
 .hero-links a{font-family:var(--mono);font-size:.73rem;color:rgba(240,236,228,.55);text-decoration:none;padding-bottom:2px;border-bottom:1px solid rgba(240,236,228,.2);letter-spacing:.06em;transition:color .2s,border-color .2s}
 .hero-links a:hover{color:rgba(240,236,228,.9);border-color:rgba(240,236,228,.5)}
 
+/* BIO */
+#about{background:var(--bg);padding:4rem 0}
+.bio-inner{max-width:640px}
+.bio-text{font-size:1rem;line-height:1.8;color:#b8b0a4;margin-bottom:1rem}
+.bio-links{display:flex;gap:2rem;flex-wrap:wrap;margin-top:1.5rem}
+.bio-links a{font-family:var(--mono);font-size:.72rem;color:rgba(240,236,228,.5);text-decoration:none;padding-bottom:2px;border-bottom:1px solid rgba(240,236,228,.2);letter-spacing:.06em;transition:color .2s,border-color .2s}
+.bio-links a:hover{color:rgba(240,236,228,.9);border-color:rgba(240,236,228,.5)}
+#about .s-label{color:rgba(240,236,228,.4)}
+#about .s-title{color:#fff}
+
 /* SECTIONS */
 section{padding:5rem 0}
 section.bg-warm{background:var(--bg-warm)}
@@ -211,6 +221,25 @@ footer p{font-size:.82rem;color:var(--text-3)}
     </div>
   </div>
 </header>
+
+<!-- BIO -->
+<section id="about">
+<div class="container">
+  <div class="bio-inner">
+    <div>
+      <div class="s-label">About</div>
+      <h2 class="s-title" style="margin-bottom:1.2rem">Steve Bick</h2>
+      <p class="bio-text">Steve Bick is a forester, author, and educator with more than three decades of work in logging economics, timber management, and forest products operations. He simplifies theories and ideas into actions, plans, publications, and tools that help forests, people, and rural enterprises. He is the author or coauthor of eleven books and the creator of a suite of free applications used by loggers, foresters, and sawmill operators across the Northeast and beyond.</p>
+      <p class="bio-text">Steve is the founder of Northeast Forests LLC, the Forest Business School, and the Lumbermen OS app collection. He works nationally from Montana.</p>
+      <div class="bio-links">
+        <a href="mailto:steve@northeastforests.com">steve@northeastforests.com</a>
+        <a href="https://www.linkedin.com/in/steve-bick-loggingchance/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.northeastforests.com/" target="_blank" rel="noopener">Northeast Forests LLC</a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 
 <!-- BOOKS -->
 <section id="books">
